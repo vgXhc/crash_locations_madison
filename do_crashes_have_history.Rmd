@@ -99,7 +99,7 @@ madison_KA_buffered %>%
   scale_fill_brewer() +
   xlab(element_blank())+
   ylab("number of crashes") +
-  labs(title = str_wrap("Crashes in 2020 often occured in locations with no crash history", 50),
+  labs(title = str_wrap("Crashes in 2020 often occured in locations with no crash history", 40),
        caption = str_wrap("Data: CommunityMaps crash data for fatal (K) and severe (A) injuries, 2015-20. Analysis and visualization: Harald Kliems", 65))
   
 ```
