@@ -39,9 +39,9 @@ Crash data are available from Community Maps. As a first step we can look at the
 
 ```{r message=FALSE, warning=FALSE, echo=FALSE, results=FALSE}
 download.file("https://CommunityMaps.wi.gov/crash/public/crashesKML.do?filetype=json&startyear=2015&en
-dyear=2021&injsvr=K&injsvr=A&county=dane", "crashes.json")
+dyear=2021&injsvr=K&injsvr=A&county=dane", "test.json")
 
-df <- st_read("crashes.json")
+df <- st_read("test.json")
 
 madison_KA <- df %>% 
   filter(muniname == "MADISON") %>% 
