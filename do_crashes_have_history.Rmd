@@ -10,6 +10,10 @@ date: "`r Sys.Date()`"
 repository_url: https://github.com/vgXhc/crash_locations_madison
 compare_updates_url:
 creative_commons: CC BY-SA
+categories:
+  - Vision Zero
+  - map
+  - Madison (WI)
 output: 
   distill::distill_article:
     toc: true
